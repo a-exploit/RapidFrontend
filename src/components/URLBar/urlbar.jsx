@@ -20,7 +20,7 @@ forSummary=()=>{
 
 			axios({
   method: 'post',
-  url: 'http://localhost:8000/polls/summary/',
+  url: 'http://rapidrevisionc.app.sdslabs.tech/polls/summary/',
   data: {
     id: id
   }
@@ -36,7 +36,7 @@ forKeywords=()=>{
 
 			axios({
   method: 'post',
-  url: 'http://localhost:8000/polls/keywords/',
+  url: 'http://rapidrevisionc.app.sdslabs.tech/polls/keywords/',
   data: {
     id: id
   }
@@ -53,7 +53,7 @@ onPressEnterHandle=()=>{
 	const id=document.getElementsByClassName('ant-input ant-input-lg')[0].value
 	axios({
   method: 'post',
-  url: 'http://localhost:8000/polls/',
+  url: 'http://rapidrevisionc.app.sdslabs.tech/polls/',
   data: {
     id: id
   }
